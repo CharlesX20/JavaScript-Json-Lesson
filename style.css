@@ -1,0 +1,161 @@
+/* Apply Georgia font site-wide */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Header styling */
+.main-header {
+    background-color: #f9d342; /* soft yellow */
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+/* Container to center the form on the page */
+.form-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Form heading */
+.student-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Georgia, serif;
+}
+
+/* Individual form fields */
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Georgia, serif;
+}
+
+/* Button group */
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Submit button */
+.btn-submit {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f9d342; /* same yellow as header */
+    font-family: Georgia, serif;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-submit:hover {
+    background-color: #e0c832;
+}
+
+/* Reset button */
+.btn-reset {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ccc;
+    font-family: Georgia, serif;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-reset:hover {
+    background-color: #bbb;
+}
+
+/* Container around the table */
+.table-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    font-family: Georgia, serif;
+}
+
+/* Table heading */
+.table-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.student-table th,
+.student-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.student-table thead {
+    background-color: #f9d342; /* same yellow as header */
+    color: #333;
+}
+
+.student-table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.student-table tbody tr:hover {
+    background-color: #eaeaea;
+}
+
+
+
+/* Footer styling */
+.main-footer {
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
