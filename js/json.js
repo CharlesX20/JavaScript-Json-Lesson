@@ -49,6 +49,9 @@ function showTopFlavors(jsonObj) {
         let article = document.createElement('article');
         let h2 = document.createElement('h2');
         let img= document.createElement('img');
+        // *NEW THING I ADDED* Added two new paragraph elements to show calories and type
+        let p1 = document.createElement('p');
+        let p2 = document.createElement('p');  
         let ul = document.createElement('ul');
 
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
