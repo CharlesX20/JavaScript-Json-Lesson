@@ -56,7 +56,7 @@ function showTopFlavors(jsonObj) {
 
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
         h2.textContent = topFlavors[i].name;
-        // Now showing calories and type from the JSON data inside the for loop iteration
+        // *NEW THING I ADDED* Now showing calories and type from the JSON data inside the for loop iteration
         p1.textContent = 'Calories: ' + topFlavors[i].calories; 
         p2.textContent = 'Type: ' + topFlavors[i].type;          
         img.setAttribute('src','./images/' + topFlavors[i].image);
@@ -72,6 +72,9 @@ function showTopFlavors(jsonObj) {
         }
         // STEP 10h: Append each of the above HTML elements to the ARTICLE element
         article.appendChild(h2);
+        // *NEW THING I ADDED* Added the calories and type paragraphs to display
+        article.appendChild(p1); 
+        article.appendChild(p2);  
         article.appendChild(img);
         article.appendChild(ul);
         // STEP 10i: Append each complete ARTICLE element to the SECTION element
