@@ -25,6 +25,28 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+    {
+      "name" : "Berry Blast",
+      "calories" : 380,
+      "type" : "sherbet",
+      "ingredients" : [
+        "strawberries",
+        "blueberries",
+        "raspberry syrup"
+      ],
+      "image" : "strawberry-sprinkle.svg"
+    },
+    {
+      "name" : "Cookie Dough Dream",
+      "calories" : 450,
+      "type" : "kulfi",
+      "ingredients" : [
+        "vanilla ice cream",
+        "chocolate chip pieces",
+        "cookie dough chunks"
+      ],
+      "image" : "ice-cream-xtra1.svg"
     }
   ]
 }
